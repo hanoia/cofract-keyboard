@@ -1,1 +1,298 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mcp23017_qfn
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP23017_QFN U?
+U 1 1 5B252007
+P 2800 2850
+F 0 "U?" H 2700 3875 50  0000 R CNN
+F 1 "MCP23017_QFN" H 2700 3800 50  0000 R CNN
+F 2 "" H 2850 1900 50  0001 L CNN
+F 3 "" H 3050 3850 50  0001 C CNN
+	1    2800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252113
+P 5200 2000
+F 0 "SW?" H 5250 2100 50  0000 L CNN
+F 1 "SW_Push" H 5200 1940 50  0000 C CNN
+F 2 "" H 5200 2200 50  0001 C CNN
+F 3 "" H 5200 2200 50  0001 C CNN
+	1    5200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B2521DC
+P 5200 2400
+F 0 "SW?" H 5250 2500 50  0000 L CNN
+F 1 "SW_Push" H 5200 2340 50  0000 C CNN
+F 2 "" H 5200 2600 50  0001 C CNN
+F 3 "" H 5200 2600 50  0001 C CNN
+	1    5200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B25226F
+P 5200 2800
+F 0 "SW?" H 5250 2900 50  0000 L CNN
+F 1 "SW_Push" H 5200 2740 50  0000 C CNN
+F 2 "" H 5200 3000 50  0001 C CNN
+F 3 "" H 5200 3000 50  0001 C CNN
+	1    5200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B25233F
+P 5750 2000
+F 0 "SW?" H 5800 2100 50  0000 L CNN
+F 1 "SW_Push" H 5750 1940 50  0000 C CNN
+F 2 "" H 5750 2200 50  0001 C CNN
+F 3 "" H 5750 2200 50  0001 C CNN
+	1    5750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252380
+P 5750 2400
+F 0 "SW?" H 5800 2500 50  0000 L CNN
+F 1 "SW_Push" H 5750 2340 50  0000 C CNN
+F 2 "" H 5750 2600 50  0001 C CNN
+F 3 "" H 5750 2600 50  0001 C CNN
+	1    5750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B2523B8
+P 5750 2800
+F 0 "SW?" H 5800 2900 50  0000 L CNN
+F 1 "SW_Push" H 5750 2740 50  0000 C CNN
+F 2 "" H 5750 3000 50  0001 C CNN
+F 3 "" H 5750 3000 50  0001 C CNN
+	1    5750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252526
+P 6300 2000
+F 0 "SW?" H 6350 2100 50  0000 L CNN
+F 1 "SW_Push" H 6300 1940 50  0000 C CNN
+F 2 "" H 6300 2200 50  0001 C CNN
+F 3 "" H 6300 2200 50  0001 C CNN
+	1    6300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252560
+P 6300 2400
+F 0 "SW?" H 6350 2500 50  0000 L CNN
+F 1 "SW_Push" H 6300 2340 50  0000 C CNN
+F 2 "" H 6300 2600 50  0001 C CNN
+F 3 "" H 6300 2600 50  0001 C CNN
+	1    6300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252595
+P 6300 2800
+F 0 "SW?" H 6350 2900 50  0000 L CNN
+F 1 "SW_Push" H 6300 2740 50  0000 C CNN
+F 2 "" H 6300 3000 50  0001 C CNN
+F 3 "" H 6300 3000 50  0001 C CNN
+	1    6300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B2525F7
+P 6850 2000
+F 0 "SW?" H 6900 2100 50  0000 L CNN
+F 1 "SW_Push" H 6850 1940 50  0000 C CNN
+F 2 "" H 6850 2200 50  0001 C CNN
+F 3 "" H 6850 2200 50  0001 C CNN
+	1    6850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B25262E
+P 6850 2400
+F 0 "SW?" H 6900 2500 50  0000 L CNN
+F 1 "SW_Push" H 6850 2340 50  0000 C CNN
+F 2 "" H 6850 2600 50  0001 C CNN
+F 3 "" H 6850 2600 50  0001 C CNN
+	1    6850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252670
+P 6850 2800
+F 0 "SW?" H 6900 2900 50  0000 L CNN
+F 1 "SW_Push" H 6850 2740 50  0000 C CNN
+F 2 "" H 6850 3000 50  0001 C CNN
+F 3 "" H 6850 3000 50  0001 C CNN
+	1    6850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252AC9
+P 7400 2150
+F 0 "SW?" H 7450 2250 50  0000 L CNN
+F 1 "SW_Push" H 7400 2090 50  0000 C CNN
+F 2 "" H 7400 2350 50  0001 C CNN
+F 3 "" H 7400 2350 50  0001 C CNN
+	1    7400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252B1F
+P 7400 2550
+F 0 "SW?" H 7450 2650 50  0000 L CNN
+F 1 "SW_Push" H 7400 2490 50  0000 C CNN
+F 2 "" H 7400 2750 50  0001 C CNN
+F 3 "" H 7400 2750 50  0001 C CNN
+	1    7400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252BEB
+P 7400 3050
+F 0 "SW?" H 7450 3150 50  0000 L CNN
+F 1 "SW_Push" H 7400 2990 50  0000 C CNN
+F 2 "" H 7400 3250 50  0001 C CNN
+F 3 "" H 7400 3250 50  0001 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5B252C55
+P 7950 3050
+F 0 "SW?" H 8000 3150 50  0000 L CNN
+F 1 "SW_Push" H 7950 2990 50  0000 C CNN
+F 2 "" H 7950 3250 50  0001 C CNN
+F 3 "" H 7950 3250 50  0001 C CNN
+	1    7950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2000 5400 3300
+Wire Wire Line
+	5400 3300 8150 3300
+Wire Wire Line
+	8150 3050 8150 3400
+Wire Wire Line
+	5950 2000 5950 3300
+Connection ~ 5950 3300
+Wire Wire Line
+	6500 2000 6500 3300
+Connection ~ 6500 3300
+Wire Wire Line
+	7050 2000 7050 3300
+Connection ~ 7050 3300
+Wire Wire Line
+	7600 2150 7600 3300
+Connection ~ 7600 3300
+Connection ~ 8150 3300
+$Comp
+L GND #PWR?
+U 1 1 5B253391
+P 8150 3400
+F 0 "#PWR?" H 8150 3150 50  0001 C CNN
+F 1 "GND" H 8150 3250 50  0000 C CNN
+F 2 "" H 8150 3400 50  0001 C CNN
+F 3 "" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 2000 1    60   Input ~ 0
+SW0
+Text GLabel 5550 2000 1    60   Input ~ 0
+SW1
+Text GLabel 6100 2000 1    60   Input ~ 0
+SW2
+Text GLabel 6650 2000 1    60   Input ~ 0
+SW3
+Text GLabel 7200 2150 1    60   Input ~ 0
+SW4
+Text GLabel 7200 2550 1    60   Input ~ 0
+SW9
+Text GLabel 6650 2400 1    60   Input ~ 0
+SW8
+Text GLabel 6100 2400 1    60   Input ~ 0
+SW7
+Text GLabel 5550 2400 1    60   Input ~ 0
+SW6
+Text GLabel 5000 2400 1    60   Input ~ 0
+SW5
+Text GLabel 5000 2800 1    60   Input ~ 0
+SW10
+Text GLabel 5550 2800 1    60   Input ~ 0
+SW11
+Text GLabel 6100 2800 1    60   Input ~ 0
+SW12
+Text GLabel 6650 2800 1    60   Input ~ 0
+SW13
+Text GLabel 7200 3050 1    60   Input ~ 0
+SW14
+Text GLabel 7750 3050 1    60   Input ~ 0
+SW15
+$EndSCHEMATC
