@@ -1024,11 +1024,11 @@ Text Notes 3200 5600 0    60   ~ 0
 Trinket M0\n
 Text Notes 4550 7300 0    60   ~ 0
 OLED
-Text GLabel 2150 2500 0    60   Input ~ 0
+Text GLabel 2150 2300 0    60   Input ~ 0
 SW15
 Text GLabel 2150 2400 0    60   Input ~ 0
 SW14
-Text GLabel 2150 2300 0    60   Input ~ 0
+Text GLabel 2150 2500 0    60   Input ~ 0
 SW13
 Text GLabel 2150 2200 0    60   Input ~ 0
 SW12
