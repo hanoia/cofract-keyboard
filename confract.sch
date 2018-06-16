@@ -295,4 +295,14 @@ Text GLabel 7200 3050 1    60   Input ~ 0
 SW14
 Text GLabel 7750 3050 1    60   Input ~ 0
 SW15
+Connection ~ 5400 2400
+Connection ~ 5400 2800
+Connection ~ 5950 2800
+Connection ~ 5950 2400
+Connection ~ 6500 2400
+Connection ~ 6500 2800
+Connection ~ 7050 2400
+Connection ~ 7050 2800
+Connection ~ 7600 2550
+Connection ~ 7600 3050
 $EndSCHEMATC
