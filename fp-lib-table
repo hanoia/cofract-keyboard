@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name flipalps)(type KiCad)(uri "$(KIPRJMOD)/lib/flipalps.pretty")(options "")(descr ""))
+  (lib (name footprint)(type KiCad)(uri "$(KIPRJMOD)/lib/footprint.pretty")(options "")(descr ""))
+)
