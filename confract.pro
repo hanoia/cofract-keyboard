@@ -1,4 +1,4 @@
-update=2018/06/16 23:34:29
+update=2018/06/17 6:11:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +60,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=lib/mcp23017_qfn
+[general]
+version=1
